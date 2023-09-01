@@ -6,7 +6,11 @@ module.exports = {
       "alba": "#46B8C8",
 	  "black-light": "#3D4F5C",
 	  "orange-basic": "#FB8958",
-	  "white-gray": "FBFAFA"
+	  "white-gray": "#FBFAFA",
+	  "green-light": "#A9BC87",
+	  "aqua-light": "#8BB5C9",
+	  "sky-light": "#00A0B6",
+	  "purple-light": "#8B60D3"	  
     },
 	fontFamily: {
 		circular: ["Circular", "cursive"],

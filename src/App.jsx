@@ -3,7 +3,7 @@ import Main from "./layouts/main/Main";
 
 function App() {
   return (
-    <div className="py-6 font-circular">
+    <div className="py-[30px] font-circular">
       <Header />
       <Main />
     </div>

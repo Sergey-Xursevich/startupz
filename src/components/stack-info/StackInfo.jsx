@@ -1,14 +1,15 @@
+import cn from "classnames";
 import PropTypes from "prop-types";
 import Button from "../button/Button";
 
 const StackInfo = ({ data }) => {
-  const { title, text, image, url } = data;
+  const { title, text, image } = data;
 
   return (
-    <div className="container mx-auto w-7/10 flex flex-col items-center rounded-2xl shadow-stack-info-shadow">
-      <p className="text-lg">{title}</p>
-      <p>{text}</p>
-      <img src={image} alt="" />
+    <div className="flex flex-col justify-between items-center w-[588px] px-[100px] py-11 rounded-[30px] shadow-stack-info-shadow">
+      <p className={cn("inline-block mb-6 text-3xl font-bold", data.colorTitle)}>{title}</p>
+      <p className="inline-block mb-6 text-base text-center">{text}</p>
+      <img src={image} alt="" className="mb-6"/>
       <Button text={"More"} />      
     </div>
   )
@@ -20,6 +21,7 @@ StackInfo.propTypes = {
     text: PropTypes.string,
     image: PropTypes.any,
     url: PropTypes.string,
+    colorTitle: PropTypes.string,
   })
 }
 
