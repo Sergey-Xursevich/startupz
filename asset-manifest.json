@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/startupz/static/css/main.ddc5fb0b.css",
-    "main.js": "/startupz/static/js/main.6162af69.js",
+    "main.css": "/startupz/static/css/main.5f0e4ec4.css",
+    "main.js": "/startupz/static/js/main.b2dae85a.js",
     "static/media/artwork.png": "/startupz/static/media/artwork.8a59d62f9be436a75928.png",
     "static/media/CircularStd-Regular.ttf": "/startupz/static/media/CircularStd-Regular.8dd9b00439575cc09ae4.ttf",
     "static/media/iPad-codekeeper.png": "/startupz/static/media/iPad-codekeeper.05399b48a88864724e87.png",
     "static/media/iPad-feedback-lack.png": "/startupz/static/media/iPad-feedback-lack.640cdf73069beebd232c.png",
     "static/media/macbook-touch-bar-tolq.png": "/startupz/static/media/macbook-touch-bar-tolq.90a604290a1223ff862a.png",
     "static/media/macbook-touch-bar-legalsite.png": "/startupz/static/media/macbook-touch-bar-legalsite.d28306549e145531eb05.png",
+    "static/media/logo.svg": "/startupz/static/media/logo.31c2c11da21f2462809c02fed2b4d219.svg",
     "index.html": "/startupz/index.html",
-    "main.ddc5fb0b.css.map": "/startupz/static/css/main.ddc5fb0b.css.map",
-    "main.6162af69.js.map": "/startupz/static/js/main.6162af69.js.map"
+    "main.5f0e4ec4.css.map": "/startupz/static/css/main.5f0e4ec4.css.map",
+    "main.b2dae85a.js.map": "/startupz/static/js/main.b2dae85a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc5fb0b.css",
-    "static/js/main.6162af69.js"
+    "static/css/main.5f0e4ec4.css",
+    "static/js/main.b2dae85a.js"
   ]
 }
