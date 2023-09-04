@@ -17,13 +17,13 @@ const Hiring = () => {
             alt="Woman on the left side"
           />
           <div className="container flex justify-center">
-            <div className="flex flex-col justify-center items-center w-[440px] gap-8 md:py-24 lg:py-36">
-              <h4 className="text-4xl font-bold lg:text-5xl">We are hiring!</h4>
+            <div className="flex flex-col justify-center items-center w-[440px] gap-7 md:py-24 lg:py-32">
+              <h4 className="text-4xl font-bold tracking-wide lg:text-5xl">We are hiring!</h4>
               <p className="text-xl text-orange-basic font-medium text-center lg:text-2xl text-coral">
                 We&apos;re always looking for talented people to join and help
                 build our startups. Check out our current openings
               </p>
-              <Button text="See current openings" handleChange={onShowHandler} fill />
+              <Button text="See current openings" handleChange={onShowHandler} styles="px-9" fill />
             </div>
           </div>
           <img

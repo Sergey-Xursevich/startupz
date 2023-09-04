@@ -10,11 +10,11 @@ const StackInfo = ({ data }) => {
   }
 
   return (
-    <div className="flex flex-col justify-between items-center w-[588px] px-[100px] py-11 rounded-[30px] shadow-stack-info-shadow">
+    <div className="flex flex-col justify-between items-center w-[620px] px-[100px] py-12 rounded-[30px] shadow-stack-info-shadow">
       <p className={cn("inline-block mb-6 text-3xl font-bold", data.colorTitle)}>{title}</p>
-      <p className="inline-block mb-6 text-base text-center">{text}</p>
-      <img src={image} alt="" className="mb-6"/>
-      <Button text={"More"} handleChange={onShowHandler} />      
+      <p className="min-h-[60px] inline-block mb-5 text-base leading-5 tracking-normal text-center whitespace-break-spaces">{text}</p>
+      <img src={image} alt="" className="mb-8"/>
+      <Button text={"More"} handleChange={onShowHandler} styles="px-8" />      
     </div>
   )
 };

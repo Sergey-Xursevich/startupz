@@ -14,7 +14,7 @@ const Main = () => {
       <Slogan message="We love solving problems!" />
       <Values />
       <Works />
-      <Slogan message="Startups create a world that actually is better. Any problem that can be solved, will be solved by a startup, and that is a huge opportunity." />
+      <Slogan message="Startups create a world that actually is better. Any problem that can be solved, will be solved by a startup, and that is a huge opportunity." styles="w-6/10" />
       <Hiring />
       <Feedback />
     </Fragment>

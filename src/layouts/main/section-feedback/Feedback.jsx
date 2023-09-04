@@ -5,12 +5,12 @@ const Feedback = () => {
   return (
     <section id="readyToBoard" className="overflow-hidden text-white bg-yellow-gray">
       <div className="container relative flex flex-col justify-center mx-auto py-[70px] z-10">
-        <div className="text-[#FFF]">
+        <div className="mb-3 text-[#FFF]">
           <h4 className="text-6xl font-bold">
             Are you ready <br className="hidden lg:block" /> to board this
             rocket ship?
           </h4>
-          <p className="text-2xl py-8">
+          <p className="text-2xl py-5">
             Share your excitement with us.
           </p>
         </div>

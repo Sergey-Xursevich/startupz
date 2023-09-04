@@ -42,23 +42,23 @@ library.add(fab, faTwitter, faInstagram, faLinkedin);
 
 const Footer = () => {
   return (
-    <footer id="contact" className="container mx-auto py-[120px] grid grid-cols-4 gap-5 overflow-hidden">
+    <footer id="contact" className="container mx-auto pt-[120px] grid grid-cols-4 gap-8 overflow-hidden">
       <div className="flex flex-col items-start justify-between">        
         <a href="/"><img className="h-10" src={logo} alt="logo" /></a>
-        <p className="text-lg text-gray-400 ">
+        <p className="text-lg text-black-light">
           © 2020 Startupz. <br /> All rights reserved.
         </p>
       </div>
-      <div className="flex flex-col pt-3 xl:pl-28">
-        <h5 className="text-lg font-medium mb-5">Companies</h5>
+      <div className="flex flex-col justify-between">
+        <h5 className="text-lg font-medium mb-5 text-black-light">Companies</h5>
         <ul className="h-2/3 flex flex-col justify-between">
           {
             companyList.map(({ text, href }, index) => <li key={index}><a href={href} className='text-alba'>{text}</a></li>)
           }
         </ul>
       </div>
-      <div className="flex flex-col pt-3 xl:pl-24">
-        <h5 className="text-lg font-medium">Contact</h5>
+      <div className="flex flex-col  justify-between">
+        <h5 className="text-lg font-medium text-black-light">Contact</h5>
         <div className="flex flex-col">
           <p className="pt-3 font-light text-black-gray">
             World Trade Center - The Hague <br /> Prinses Margrietplantsoen
@@ -72,16 +72,16 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="pt-3 xl:pl-48">
-        <h5 className="text-lg font-medium">Follow us</h5>
+      <div className="row-span-5">
+        <h5 className="text-lg font-medium text-black-light">Follow us</h5>
         <div className="flex flex-col gap-4 pt-3">
-        <ul className="h-5/10 flex flex-col justify-between">
+        <ul className="flex flex-col justify-between">
           {
             socialList.map(({ type, href }, index) => {
               return (
                 <li key={index}>
                   <a href={href}>
-                    <FontAwesomeIcon icon={["fab", type]} size="xl" color="#46B8C8" />
+                    <FontAwesomeIcon className="py-1" icon={["fab", type]} size="xl" color="#46B8C8" />
                   </a>
                 </li>
               )

@@ -30,16 +30,16 @@ const Form = () => {
           Message*
         </label>
         <textarea
-          className="px-5 py-3 text-lg border-0 shadow-lg rounded-xl"
+          className="px-5 py-3 text-lg border-0 shadow-lg rounded-xl resize-none"
           name="message"
           id="message"
-          cols="50"
-          rows="9"
+          cols="40"
+          rows="5"
           placeholder="Message*"
           required
         />
-        <div className="flex justify-center">
-          <Button text="Shoot us a message" styles="bg-black-light" fill />         
+        <div className="flex justify-center mt-8">
+          <Button text="Shoot us a message" styles="px-12 bg-black-light" fill />         
         </div>
       </form>
     </div>
