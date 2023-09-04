@@ -1,5 +1,6 @@
-import Question from "../../../assets/images/question.png";
 import Paper from "../../../components/paper/Paper";
+
+import Question from "../../../assets/images/question.png";
 
 const intrestList = [
   { text: "We develop innovative products, systems and services" },

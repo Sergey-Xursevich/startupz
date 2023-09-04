@@ -10,7 +10,9 @@ module.exports = {
 	  "green-light": "#A9BC87",
 	  "aqua-light": "#8BB5C9",
 	  "sky-light": "#00A0B6",
-	  "purple-light": "#8B60D3"	  
+	  "purple-light": "#8B60D3",
+	  "yellow-gray": "#FFC351",
+	  "black-gray": "#939393",	  
     },
 	fontFamily: {
 		circular: ["Circular", "cursive"],
