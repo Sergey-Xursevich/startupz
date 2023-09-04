@@ -12,7 +12,8 @@ module.exports = {
 	  "sky-light": "#00A0B6",
 	  "purple-light": "#8B60D3",
 	  "yellow-gray": "#FFC351",
-	  "black-gray": "#939393",	  
+	  "black-gray": "#939393",
+	  "white-gray-25": "#F5F5F5",	  
     },
 	fontFamily: {
 		circular: ["Circular", "cursive"],
