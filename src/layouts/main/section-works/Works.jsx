@@ -38,14 +38,12 @@ const workList = [
 
 const Works = () => {
   return (
-    <div className="container mx-auto flex flex-col justify-center items-center py-[140px]">
+    <section id="ourWorks" className="container mx-auto flex flex-col justify-center items-center py-[140px]">
       <h2 className="mb-14 text-3xl font-bold text-black-light">Our works</h2>
       <div className="grid grid-cols-2 gap-6">
-        {
-          workList.map((data, index) => <StackInfo key={index} data={data} />)
-        } 
+        { workList.map((data, index) => <StackInfo key={index} data={data} />) } 
       </div>
-    </div>
+    </section>
   );
 };
 

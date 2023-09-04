@@ -5,7 +5,7 @@ import Main from "./layouts/main/Main";
 
 function App() {
   return (
-    <div className="py-[30px] font-circular">
+    <div className="py-[30px] font-circular scroll-smooth">
       <Header />
       <Main />
       <Footer />

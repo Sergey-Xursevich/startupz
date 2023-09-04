@@ -1,6 +1,6 @@
 import Paper from "../../../components/paper/Paper";
 
-import Question from "../../../assets/images/question.png";
+import question from "../../../assets/images/icons/question.svg";
 
 const intrestList = [
   { text: "We develop innovative products, systems and services" },
@@ -10,7 +10,7 @@ const intrestList = [
 
 const Interests = () => {
   return (
-    <div className="py-[147px] bg-white-gray">
+    <section id="whoAreWe" className="py-[147px] bg-white-gray">
       <div className="container mx-auto my-24">
         <div className="flex items-center mb-20">
           <div className="w-7/10">
@@ -18,7 +18,7 @@ const Interests = () => {
             <p className="text-xl text-orange-basic">We create products that have innovation and technology at their core. <br/> We value working with talented people that understand the possibilities of today.</p>
           </div>
           <div className="flex flex-1 justify-center">
-            <img src={Question} alt="Question" />
+            <img src={question} alt="Question" />
           </div>
         </div>
         <div className="flex justify-between w-8/10">
@@ -26,10 +26,8 @@ const Interests = () => {
             intrestList.map((interest, index) => <Paper key={index} data={interest} order={index + 1} />)
           }
         </div>
-
       </div>
-
-    </div>
+    </section>
   )
 };
 

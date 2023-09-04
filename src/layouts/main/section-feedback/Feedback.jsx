@@ -1,12 +1,9 @@
 import Form from "../../../components/form/Form";
-import rocket from "./../../../assets/images/rocket.svg";
+import rocket from "./../../../assets/images/icons/rocket.svg";
 
 const Feedback = () => {
   return (
-    <section
-      className="overflow-hidden text-white bg-yellow-gray"
-      id="Work"
-    >
+    <section id="readyToBoard" className="overflow-hidden text-white bg-yellow-gray">
       <div className="container relative flex flex-col justify-center mx-auto py-[70px] z-10">
         <div className="text-[#FFF]">
           <h4 className="text-6xl font-bold">

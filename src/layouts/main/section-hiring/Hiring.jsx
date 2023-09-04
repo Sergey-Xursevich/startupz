@@ -1,15 +1,19 @@
 import Button from "../../../components/button/Button";
 
-import Woman from "../../../assets/images/woman.png";
-import Man from "../../../assets/images/man.png";
+import woman from "../../../assets/images/icons/woman.svg";
+import man from "../../../assets/images/icons/man.svg";
 
 const Hiring = () => {
+  const onShowHandler = () => {
+    alert("This page currently does not exist in Test Environment.");
+  }
+
   return (
     <section className="py-[140px] bg-white-gray">
       <div className="container mx-auto flex justify-between items-center">
         <img
             className="hidden h-10 md:block md:h-44 lg:h-64 xl:h-80"
-            src={Woman}
+            src={woman}
             alt="Woman on the left side"
           />
           <div className="container flex justify-center">
@@ -19,12 +23,12 @@ const Hiring = () => {
                 We&apos;re always looking for talented people to join and help
                 build our startups. Check out our current openings
               </p>
-              <Button text="See current openings" fill />
+              <Button text="See current openings" handleChange={onShowHandler} fill />
             </div>
           </div>
           <img
             className="hidden md:block md:h-44 lg:h-64 xl:h-80"
-            src={Man}
+            src={man}
             alt="Man on the right side"
           />
       </div>

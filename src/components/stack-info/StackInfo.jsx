@@ -5,12 +5,16 @@ import Button from "../button/Button";
 const StackInfo = ({ data }) => {
   const { title, text, image } = data;
 
+  const onShowHandler = () => {
+    alert("This page currently does not exist in Test Environment.");
+  }
+
   return (
     <div className="flex flex-col justify-between items-center w-[588px] px-[100px] py-11 rounded-[30px] shadow-stack-info-shadow">
       <p className={cn("inline-block mb-6 text-3xl font-bold", data.colorTitle)}>{title}</p>
       <p className="inline-block mb-6 text-base text-center">{text}</p>
       <img src={image} alt="" className="mb-6"/>
-      <Button text={"More"} />      
+      <Button text={"More"} handleChange={onShowHandler} />      
     </div>
   )
 };

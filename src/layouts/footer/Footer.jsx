@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab, faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import logo from "./../../assets/images/logo.svg";
+import logo from "./../../assets/images/icons/logo.svg";
 
 const companyList = [
   {
@@ -42,12 +42,9 @@ library.add(fab, faTwitter, faInstagram, faLinkedin);
 
 const Footer = () => {
   return (
-    <footer
-      className="container mx-auto py-[120px] grid grid-cols-4 gap-5 overflow-hidden"
-      id="Contact"
-    >
-      <div className="flex flex-col items-start justify-between">
-        <img className="h-10" src={logo} alt="logo" />
+    <footer id="contact" className="container mx-auto py-[120px] grid grid-cols-4 gap-5 overflow-hidden">
+      <div className="flex flex-col items-start justify-between">        
+        <a href="/"><img className="h-10" src={logo} alt="logo" /></a>
         <p className="text-lg text-gray-400 ">
           © 2020 Startupz. <br /> All rights reserved.
         </p>
