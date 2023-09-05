@@ -10,14 +10,14 @@ const Hiring = () => {
 
   return (
     <section className="bg-white-gray">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center py-10 md:py-0">
         <img
             className="hidden h-10 md:block md:h-44 lg:h-64 xl:h-80"
             src={woman}
             alt="Woman on the left side"
           />
           <div className="container flex justify-center">
-            <div className="flex flex-col justify-center items-center w-[440px] gap-7 md:py-24 lg:py-32">
+            <div className="flex flex-col justify-center items-center w-[300px] lg:w-[440px] gap-7 md:py-24 lg:py-32">
               <h4 className="text-4xl font-bold tracking-wide lg:text-5xl">We are hiring!</h4>
               <p className="text-xl text-orange-basic font-medium text-center lg:text-2xl text-coral">
                 We&apos;re always looking for talented people to join and help

@@ -27,7 +27,7 @@ const Dialog = () => {
   }
 
   return (
-    <div className="fixed bottom-10 md:right-20 xl:right-10 z-50">
+    <div className="fixed bottom-10 right-10 z-50">
       <button onClick={toggleVisiblePopup} className="relative transition-all p-2 bg-white rounded-full shadow-xl hover:bg-black-gray">
         <div className="flex items-center justify-center px-[17px] py-[18px] bg-white-gray-25 rounded-full">
           <img className="rounded-full" src={Assistant} alt="assistant" />

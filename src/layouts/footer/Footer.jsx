@@ -10,8 +10,8 @@ library.add(fab, faTwitter, faInstagram, faLinkedin);
 
 const Footer = () => {
   return (
-    <footer id="contact" className="container mx-auto pt-[120px] grid grid-cols-4 gap-y-5 gap-x-56 overflow-hidden">
-      <div className="flex flex-col items-start justify-between">        
+    <footer id="contact" className="container mx-7 lg:mx-auto pt-[120px] grid grid-cols-3 lg:grid-cols-4 gap-y-5 gap-x-10 md:gap-x-35 xl:gap-x-56 overflow-hidden">
+      <div className="hidden lg:flex flex-col items-start justify-between">        
         <a href="/"><img className="h-10" src={logo} alt="logo" /></a>
         <p className="text-lg text-black-light">
           © 2020 Startupz. <br /> All rights reserved.

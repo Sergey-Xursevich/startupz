@@ -6,7 +6,7 @@ import question from "../../../assets/images/icons/question.svg";
 const Interests = () => {
   return (
     <section id="whoAreWe" className="py-[50px] lg:py-[147px] bg-white-gray">
-      <div className="container mx-4 lg:mx-auto">
+      <div className="container mx-7 lg:mx-auto">
         <div className="flex items-start mb-[76px]">
           <div className="w-7/10">
             <h2 className="mb-8 text-5xl text-black-light font-bold tracking-wide">Who we are</h2>
