@@ -14,4 +14,4 @@ This project has been implemented within the next step in the selection process 
 
 ### Live Demo
 
-Check out the live demo of the landing page [here](https://).
+Check out the live demo of the landing page [here](https://Sergey-Xursevich.github.io/startupz).
