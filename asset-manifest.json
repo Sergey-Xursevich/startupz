@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/startupz/static/css/main.1a861e3c.css",
-    "main.js": "/startupz/static/js/main.fd17c42a.js",
-    "static/media/woman.svg": "/startupz/static/media/woman.81b4c947479c6807372d1ad9e7ae77aa.svg",
-    "static/media/man.svg": "/startupz/static/media/man.cb6071ee4f2237971935512b941ac82c.svg",
-    "static/media/artwork.png": "/startupz/static/media/artwork.8a59d62f9be436a75928.png",
-    "static/media/question.svg": "/startupz/static/media/question.a976d9d6d699c0f4cdcc695e282f2bba.svg",
-    "static/media/thumb.svg": "/startupz/static/media/thumb.a567d6648d9436167b4d28223d323bb0.svg",
-    "static/media/bulb.svg": "/startupz/static/media/bulb.a8f4b70fae54cd0163660ce61b186424.svg",
-    "static/media/CircularStd-Regular.ttf": "/startupz/static/media/CircularStd-Regular.8dd9b00439575cc09ae4.ttf",
-    "static/media/iPad-codekeeper.png": "/startupz/static/media/iPad-codekeeper.05399b48a88864724e87.png",
-    "static/media/iPad-feedback-lack.png": "/startupz/static/media/iPad-feedback-lack.640cdf73069beebd232c.png",
-    "static/media/macbook-touch-bar-tolq.png": "/startupz/static/media/macbook-touch-bar-tolq.90a604290a1223ff862a.png",
-    "static/media/macbook-touch-bar-legalsite.png": "/startupz/static/media/macbook-touch-bar-legalsite.d28306549e145531eb05.png",
-    "static/media/logo.svg": "/startupz/static/media/logo.31c2c11da21f2462809c02fed2b4d219.svg",
-    "static/media/rocket.svg": "/startupz/static/media/rocket.88a5ee4f8ff52280c3512e44ec514925.svg",
-    "index.html": "/startupz/index.html",
-    "main.1a861e3c.css.map": "/startupz/static/css/main.1a861e3c.css.map",
-    "main.fd17c42a.js.map": "/startupz/static/js/main.fd17c42a.js.map"
+    "main.css": "/startupz/public/static/css/main.ac0ab453.css",
+    "main.js": "/startupz/public/static/js/main.29b09bbe.js",
+    "static/media/woman.svg": "/startupz/public/static/media/woman.81b4c947479c6807372d1ad9e7ae77aa.svg",
+    "static/media/man.svg": "/startupz/public/static/media/man.cb6071ee4f2237971935512b941ac82c.svg",
+    "static/media/artwork.png": "/startupz/public/static/media/artwork.8a59d62f9be436a75928.png",
+    "static/media/question.svg": "/startupz/public/static/media/question.a976d9d6d699c0f4cdcc695e282f2bba.svg",
+    "static/media/thumb.svg": "/startupz/public/static/media/thumb.a567d6648d9436167b4d28223d323bb0.svg",
+    "static/media/bulb.svg": "/startupz/public/static/media/bulb.a8f4b70fae54cd0163660ce61b186424.svg",
+    "static/media/CircularStd-Regular.ttf": "/startupz/public/static/media/CircularStd-Regular.8dd9b00439575cc09ae4.ttf",
+    "static/media/iPad-codekeeper.png": "/startupz/public/static/media/iPad-codekeeper.05399b48a88864724e87.png",
+    "static/media/iPad-feedback-lack.png": "/startupz/public/static/media/iPad-feedback-lack.640cdf73069beebd232c.png",
+    "static/media/macbook-touch-bar-tolq.png": "/startupz/public/static/media/macbook-touch-bar-tolq.90a604290a1223ff862a.png",
+    "static/media/macbook-touch-bar-legalsite.png": "/startupz/public/static/media/macbook-touch-bar-legalsite.d28306549e145531eb05.png",
+    "static/media/logo.svg": "/startupz/public/static/media/logo.31c2c11da21f2462809c02fed2b4d219.svg",
+    "static/media/rocket.svg": "/startupz/public/static/media/rocket.88a5ee4f8ff52280c3512e44ec514925.svg",
+    "index.html": "/startupz/public/index.html",
+    "main.ac0ab453.css.map": "/startupz/public/static/css/main.ac0ab453.css.map",
+    "main.29b09bbe.js.map": "/startupz/public/static/js/main.29b09bbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a861e3c.css",
-    "static/js/main.fd17c42a.js"
+    "static/css/main.ac0ab453.css",
+    "static/js/main.29b09bbe.js"
   ]
 }
