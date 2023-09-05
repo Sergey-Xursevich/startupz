@@ -9,7 +9,7 @@ const Hiring = () => {
   }
 
   return (
-    <section className="py-[140px] bg-white-gray">
+    <section className="bg-white-gray">
       <div className="container mx-auto flex justify-between items-center">
         <img
             className="hidden h-10 md:block md:h-44 lg:h-64 xl:h-80"

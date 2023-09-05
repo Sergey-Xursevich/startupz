@@ -14,9 +14,7 @@ const Feedback = () => {
             Share your excitement with us.
           </p>
         </div>
-        <div className="w-3/10">
-          <Form />
-        </div>
+        <div className="md:w-4/10 xl:w-3/10"><Form /></div>
         <div className="absolute z-0 hidden -bottom-1 lg:block lg:-right-52 xl:right-32">
           <img className="" src={rocket} alt="Rocket ship launching" />
         </div>

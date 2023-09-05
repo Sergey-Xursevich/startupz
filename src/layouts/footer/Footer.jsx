@@ -1,48 +1,16 @@
+import { COMPANY_LIST, SOCIAL_LIST } from "../../constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab, faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import logo from "./../../assets/images/icons/logo.svg";
 
-const companyList = [
-  {
-    text: "Tolq",
-    href: "https://tolq.com/"
-  },
-  {
-    text: "LegalSite",
-    href: "https://legalsite.co/"
-  },
-  {
-    text: "Codekeeper",
-    href: "https://codekeeper.co/index.html"
-  },
-  {
-    text: "Feedback Labs",
-    href: "https://feedbacklabs.org/"
-  },
-];
-
-const socialList = [
-  {
-    type: "twitter",
-    href: "https://twitter.com/codekeeperco"
-  },
-  {
-    type: "linkedin",
-    href: "https://www.linkedin.com/company/codekeeper/"
-  },
-  {
-    type: "instagram",
-    href: "https://www.instagram.com/"
-  }
-]
 
 library.add(fab, faTwitter, faInstagram, faLinkedin);
 
 const Footer = () => {
   return (
-    <footer id="contact" className="container mx-auto pt-[120px] grid grid-cols-4 gap-8 overflow-hidden">
+    <footer id="contact" className="container mx-auto pt-[120px] grid grid-cols-4 gap-y-5 gap-x-56 overflow-hidden">
       <div className="flex flex-col items-start justify-between">        
         <a href="/"><img className="h-10" src={logo} alt="logo" /></a>
         <p className="text-lg text-black-light">
@@ -53,7 +21,7 @@ const Footer = () => {
         <h5 className="text-lg font-medium mb-5 text-black-light">Companies</h5>
         <ul className="h-2/3 flex flex-col justify-between">
           {
-            companyList.map(({ text, href }, index) => <li key={index}><a href={href} className='text-alba'>{text}</a></li>)
+            COMPANY_LIST.map(({ text, href }, index) => <li key={index}><a href={href} className='text-alba'>{text}</a></li>)
           }
         </ul>
       </div>
@@ -72,12 +40,12 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="row-span-5">
+      <div>
         <h5 className="text-lg font-medium text-black-light">Follow us</h5>
         <div className="flex flex-col gap-4 pt-3">
         <ul className="flex flex-col justify-between">
           {
-            socialList.map(({ type, href }, index) => {
+            SOCIAL_LIST.map(({ type, href }, index) => {
               return (
                 <li key={index}>
                   <a href={href}>
